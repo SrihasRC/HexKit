@@ -101,7 +101,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="https://github.com/yourusername/ctf-toolkit"
+            href="https://github.com/SrihasRC/HexKit"
             target="_blank"
             className="text-sm font-medium text-white/90 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-[#1a1c25]"
           >
@@ -199,7 +199,7 @@ export default function Navbar() {
               </div>
 
               <Link
-                href="https://github.com/yourusername/ctf-toolkit"
+                href="https://github.com/SrihasRC/HexKit"
                 target="_blank"
                 className="text-sm font-medium text-white/90 hover:text-white px-3 py-2 rounded-md hover:bg-[#1a1c25]"
                 onClick={() => setIsMenuOpen(false)}
