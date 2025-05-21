@@ -74,7 +74,7 @@ const Hero = () => {
               <Link href="/tools">
                 <Button
                   size="lg"
-                  className="bg-primary hover:bg-primary/90 text-white font-medium"
+                  className="bg-primary hover:bg-primary/90 text-white font-medium cursor-pointer"
                 >
                   <Zap className="w-4 h-4 mr-2" />
                   Explore Tools
@@ -88,7 +88,7 @@ const Hero = () => {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-primary/40 text-white hover:bg-primary/10"
+                  className="border-primary/40 text-white hover:bg-primary/10 cursor-pointer"
                 >
                   View on GitHub
                 </Button>
