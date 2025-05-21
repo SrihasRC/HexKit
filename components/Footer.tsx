@@ -9,11 +9,11 @@ const Footer = () => {
           <div className="flex items-center gap-2 mb-4 md:mb-0">
             <Code className="h-5 w-5 text-primary" />
             <span className="font-mono text-base font-bold text-white">
-              CTF Toolkit
+              HexKit
             </span>
           </div>
           <div className="text-sm text-white/50">
-            © {new Date().getFullYear()} CTF Toolkit. All rights reserved.
+            © {new Date().getFullYear()} HexKit. All rights reserved.
           </div>
         </div>
       </div>

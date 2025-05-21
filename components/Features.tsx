@@ -20,7 +20,7 @@ const Features = () => {
               </h3>
             </div>
             <h2 className="text-3xl font-bold mb-4 text-white">
-              Why CTF Toolkit?
+              Why HexKit?
             </h2>
             <p className="text-white/70 max-w-2xl mx-auto">
               Designed specifically for CTF competitors who need reliable tools

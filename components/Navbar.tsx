@@ -69,7 +69,7 @@ export default function Navbar() {
           )}
           <Link href="/" className="flex items-center gap-2">
             <Code2 className="h-6 w-6 text-primary" />
-            <span className="font-mono text-lg font-bold">CTF Toolkit</span>
+            <span className="font-mono text-lg font-bold">HexKit</span>
           </Link>
         </div>
 
@@ -103,7 +103,7 @@ export default function Navbar() {
           <Link
             href="https://github.com/SrihasRC/HexKit"
             target="_blank"
-            className="text-sm font-medium text-white/90 hover:text-white transition-colors px-3 py-2 rounded-md hover:bg-[#1a1c25]"
+            className="text-sm font-medium text-[#1a1c25] transition-colors px-2.5 py-1.5 rounded-md bg-white/80"
           >
             GitHub
           </Link>
