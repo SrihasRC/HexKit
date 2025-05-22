@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CTF Toolkit - Cybersecurity Tools for CTF Challenges",
+  title: "HexKit",
   description:
     "A collection of essential tools for solving Capture The Flag challenges including encoders, decoders, ciphers and more.",
 };
