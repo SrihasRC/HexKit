@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HexKit
 
-## Getting Started
+![HexKit](https://img.shields.io/badge/HexKit-CTF%20Tools-blue)
+![Next.js](https://img.shields.io/badge/Next.js-15.3.2-black)
+![React](https://img.shields.io/badge/React-19.0.0-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-First, run the development server:
+HexKit is an all-in-one platform for Capture The Flag (CTF) challenges featuring a comprehensive suite of cryptography, encoding, and analysis tools to help you crack the code and capture the flag.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Cryptographic Tools**: Hash functions, XOR, ROT13
+- **Encoding/Decoding**: Base64, URL, HTML
+- **Analysis Tools**: Frequency analysis, Diff comparison, Regex tester
+- **Converters**: Various data format converters
+- **QR Code Generator**: Create QR codes for your data
+- **Modern UI**: Clean, responsive interface with dark mode
+- **Real-time Processing**: Instant results as you type
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tools Included
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Base64 Encoder/Decoder
+- Hash Generator (MD5, SHA-1, SHA-256, etc.)
+- XOR Calculator
+- URL Encoder/Decoder
+- ROT13 Cipher
+- String Reverser
+- Frequency Analyzer
+- Regex Tester
+- Text Diff Comparison
+- HTML Encoder/Decoder
+- QR Code Generator
+- Format Converter
 
-## Learn More
+## 📦 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 15
+- React 19
+- TypeScript
+- TailwindCSS 4
+- Framer Motion
+- Radix UI Components
+- Crypto-JS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SrihasRC/HexKit.git
+   cd HexKit
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📱 Usage
+
+Navigate to the Tools section to access the various CTF tools. Each tool provides a simple interface where you can input your data and get immediate results.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🔗 Links
+
+- [GitHub Repository](https://github.com/SrihasRC/HexKit)
+- [Report Issues](https://github.com/SrihasRC/HexKit/issues)
+
+---
+
+Built with ❤️ for the CTF community
