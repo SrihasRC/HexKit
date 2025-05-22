@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import ToolWrapper from "@/components/ToolWrapper";
+import BackButton from "@/components/BackButton";
 
 const page = () => {
   const [input, setInput] = useState("");
@@ -69,6 +70,7 @@ const page = () => {
           transition={{ duration: 0.5 }}
           className="max-w-5xl mx-auto"
         >
+          <BackButton />
           <div className="flex items-center gap-3 mb-6">
             <Code className="h-8 w-8 text-primary" />
             <h1 className="text-3xl font-bold text-white">

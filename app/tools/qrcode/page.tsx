@@ -15,6 +15,7 @@ import { toast } from "sonner";
 import QRCode from "qrcode";
 import { toolTheme } from "../theme-utils";
 import ToolWrapper from "@/components/ToolWrapper";
+import BackButton from "@/components/BackButton";
 
 const QRCodeTool = () => {
   const [input, setInput] = useState("");
@@ -116,6 +117,7 @@ const QRCodeTool = () => {
           transition={{ duration: 0.5 }}
           className="max-w-5xl mx-auto"
         >
+          <BackButton />
           <div className="flex items-center gap-3 mb-6">
             <Scan className={`h-8 w-8 ${toolTheme.primaryIcon}`} />
             <h1 className={`text-3xl font-bold ${toolTheme.headingText}`}>

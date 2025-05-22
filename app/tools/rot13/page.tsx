@@ -15,6 +15,7 @@ import { KeyRound, Copy, ArrowDownUp, Trash2 } from "lucide-react";
 import { toast } from "sonner";
 import { toolTheme } from "../theme-utils";
 import ToolWrapper from "@/components/ToolWrapper";
+import BackButton from "@/components/BackButton";
 
 const ROT13Tool = () => {
   const [input, setInput] = useState("");
@@ -90,6 +91,7 @@ const ROT13Tool = () => {
           transition={{ duration: 0.5 }}
           className="max-w-5xl mx-auto"
         >
+          <BackButton />
           <div className="flex items-center gap-3 mb-6">
             <KeyRound className={`h-8 w-8 ${toolTheme.primaryIcon}`} />
             <h1 className={`text-3xl font-bold ${toolTheme.headingText}`}>
