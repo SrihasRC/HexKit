@@ -47,7 +47,7 @@ const Navbar = () => {
   const isHomePage = pathname === "/";
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[#2a2c37] bg-[#0F1117]/90 backdrop-blur supports-[backdrop-filter]:bg-[#0F1117]/80">
+    <header className="sticky top-0 z-50 w-full border-b border-[#2a2c37] bg-[#0a0b10]/70 backdrop-blur supports-[backdrop-filter]:bg-[#0a0b10]/80">
       <div className="flex h-16 items-center justify-between px-6 md:px-4">
         <div className="flex items-center gap-4">
           {!isHomePage && (

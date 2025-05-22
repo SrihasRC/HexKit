@@ -81,8 +81,7 @@ const Features = () => {
                 Built for Hackers
               </h3>
               <p className="text-white/70">
-                Designed with a clean, efficient interface featuring keyboard
-                shortcuts and a dark mode optimized for long coding sessions.
+                Designed with a clean, efficient interface featuring a dark mode optimized for long coding sessions.
               </p>
             </motion.div>
           </div>
