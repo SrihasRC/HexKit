@@ -248,3 +248,4 @@ export const ctfChallenges: CTFChallenge[] = [
     tools: ["Hex/Binary Converter", "Text Diff Viewer"],
   },
 ];
+

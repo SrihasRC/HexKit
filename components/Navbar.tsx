@@ -40,7 +40,7 @@ const toolCategories = [
   },
 ];
 
-export default function Navbar() {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { isSidebarOpen, toggleSidebar } = useSidebar();
   const pathname = usePathname();
@@ -213,3 +213,5 @@ export default function Navbar() {
     </header>
   );
 }
+
+export default Navbar
