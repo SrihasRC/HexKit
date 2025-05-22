@@ -14,7 +14,7 @@ const SidebarContext = createContext<SidebarContextType | undefined>(undefined);
 
 export function SidebarProvider({ children }: { children: React.ReactNode }) {
   // Start with sidebar closed by default
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const pathname = usePathname();
   const hasInitialized = useRef(false);
 

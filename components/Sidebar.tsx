@@ -9,7 +9,7 @@ import {
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSidebar } from "./sidebar-provider";
-import { useEffect, useState, useRef } from "react";
+import { useRef } from "react";
 
 // Tool categories and their respective tools
 const toolCategories = [
@@ -45,7 +45,6 @@ const toolCategories = [
 export default function Sidebar() {
   const pathname = usePathname();
   const { isSidebarOpen } = useSidebar();
-  const initialized = useRef(false);
   
   // Don't show sidebar on the home page
   if (pathname === "/") {
